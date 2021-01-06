@@ -3,7 +3,7 @@ package cn.bdqn.scrap.pojo;
 public class Phone {
 
 	
-	//BBBBBB
+	//QQQQ
 	
 	private int id;
 	public int getId() {
