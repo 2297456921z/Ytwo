@@ -23,4 +23,9 @@ public class InitController {
 	public String resigter() {
 		return "register";
 	}
+	
+	
+	
+	
+	
 }

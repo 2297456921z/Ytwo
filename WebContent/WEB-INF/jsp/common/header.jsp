@@ -23,8 +23,12 @@
 				</div>
 				<div class="top_right">
 					<div class="top_r1">
-						<a id="getButton" href="${pageContext.request.contextPath}/login" target="_self">登录</a> <a
-							onclick="noteShow()"  target="_blank">注册</a>
+						<a id="getButton" href="${pageContext.request.contextPath}/login" target="_self">登录</a> 
+						<a id="getButton" href="${pageContext.request.contextPath}/register" target="_self">注册</a> 
+						<!-- 注册请求为   register-->
+						
+						
+			
 					</div>
 					<span>|</span>
 					<div class="top_r2">
