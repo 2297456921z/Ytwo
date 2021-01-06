@@ -25,9 +25,9 @@
 			<div class="foot_right yahei">
 				<ul>
 					<li><a onclick="codeShow()" target="_self"><img
-							src="${pageContext.request.contextPath }/statics//images/foot_ico1.png" /><span>关注微信</span></a></li>
+							src="${pageContext.request.contextPath }/statics/images/foot_ico1.png" /><span>关注微信</span></a></li>
 					<li><a onclick="ioscodeShow()" target="_self"><img
-							src="${pageContext.request.contextPath }/statics//images/foot_ico2.png" /><span>iOS下载</span></a></li>
+							src="${pageContext.request.contextPath }/statics/images/foot_ico2.png" /><span>iOS下载</span></a></li>
 					<li class="mrnone"><a onclick="androidcodeShow()"
 						target="_self"><img src="${pageContext.request.contextPath }/statics/images/foot_ico3.png" /><span>安卓下载</span></a></li>
 				</ul>

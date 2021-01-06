@@ -81,6 +81,6 @@
 
 	</div>
 <!--底部-->
-	<%@include file="/WEB-INF/jsp/common/foot.jsp"%>
+		<%@include file="/WEB-INF/jsp/common/foot.jsp"%>
 </body>
 </html>
