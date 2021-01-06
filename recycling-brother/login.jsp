@@ -14,7 +14,7 @@
 </head>
 <body>
 
-	<!--头部-->
+	<!--头部-ASND->
 	<div class="head" style="width: 100%" id="page_head">
 		<!--LOGO-->
 
