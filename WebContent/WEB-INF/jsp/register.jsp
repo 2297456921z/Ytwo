@@ -26,7 +26,7 @@
 			<div class="top-nav">
 				<strong>注册页面</strong>
 				<p>
-					<a href="login.jsp">我已注册，马上登录 ></a>
+					<a href="${pageContext.request.contextPath }/login">我已注册，马上登录 ></a>
 				</p>
 			</div>
 		</div>
@@ -47,19 +47,19 @@
 				<span class="reg1-mar">证件上传：</span>
 				<dl>
 					<dd>
-						<img src="${pageContext.request.contextPath }/statics/images/personal/reg_img1.jpg" />
+						<img src="${pageContext.request.contextPath }/statics/images/reg_img1.jpg" />
 						<p>身份证验证照</p>
 					</dd>
 					<dd class="mrnone">
-						<img src="${pageContext.request.contextPath }/statics/images/personal/reg_img1.jpg" />
+						<img src="${pageContext.request.contextPath }/statics/images/reg_img1.jpg" />
 						<p>身份证反面照</p>
 					</dd>
 					<dd>
-						<img src="${pageContext.request.contextPath }/statics/images/personal/reg_img1.jpg" />
+						<img src="${pageContext.request.contextPath }/statics/images/reg_img1.jpg" />
 						<p>门店合照</p>
 					</dd>
 					<dd class="mrnone">
-						<img src="${pageContext.request.contextPath }/statics/images/personal/reg_img1.jpg" />
+						<img src="${pageContext.request.contextPath }/statics/images/reg_img1.jpg" />
 						<p>个人持证照</p>
 					</dd>
 				</dl>
