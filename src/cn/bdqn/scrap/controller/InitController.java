@@ -11,14 +11,9 @@ public class InitController {
 	public String index() {
 		return "index";
 	}
-<<<<<<< HEAD
 
 	// 登录
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
-=======
-//A
-	@RequestMapping(value ="/login",method =RequestMethod.GET)
->>>>>>> branch 'master' of https://github.com/2297456921z/Ytwo.git
 	public String login() {
 		return "login";
 	}
