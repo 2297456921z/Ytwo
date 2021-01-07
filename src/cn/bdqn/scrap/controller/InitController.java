@@ -47,4 +47,19 @@ public class InitController {
 	public String waste() {
 		return "hazardous-waste/hazardous-waste";
 	}
+	//订单详情
+	@RequestMapping(value = "/order-details", method = RequestMethod.GET)
+	public String details() {
+		return "recycling-brother/order-details";
+	}
+	
+	
+	
+	//废品框
+	
+	
+	
+	
+	
+	
 }
