@@ -14,5 +14,7 @@ public interface Shop_UserService {
  */
 	
 	 public List<Shop_User> Shop_UserLogin(String user,String password);
+	 
+	 
 	
 }

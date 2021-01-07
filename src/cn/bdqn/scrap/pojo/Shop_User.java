@@ -9,8 +9,16 @@ public class Shop_User {
 	private String realname;
 	private String user;
 	private List<Shop_Order> shop_Orders;
+private int checkbox;
 
 
+	public int getCheckbox() {
+	return checkbox;
+}
+
+public void setCheckbox(int checkbox) {
+	this.checkbox = checkbox;
+}
 
 	public int getUserId() {
 		return this.userId;
