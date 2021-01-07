@@ -10,7 +10,7 @@ public class InitController {
 	public String index() {
 		return "index";
 	}
-
+//A
 	@RequestMapping(value ="/login",method =RequestMethod.GET)
 	public String login() {
 		return "login";
