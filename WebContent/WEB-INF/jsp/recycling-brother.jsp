@@ -3,16 +3,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<title>梧桐回收</title>
+<title>梧桐回收加盟</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="google-site-verification"
 	content="MSxPs3zI5vks57VZfstHOD5EVfgQR9Y0nOUHPerhEKQ" />
 
-<link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/statics/css/main.css"  />
-<link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/statics/css/index.css"  />
-<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/jquerypack.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/superslide.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/code.js"></script>
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath }/statics/css/main.css" />
+<link rel="stylesheet" type="text/css"
+	href="${pageContext.request.contextPath }/statics/css/index.css" />
+<script type="text/javascript"
+	src="${pageContext.request.contextPath }/statics/js/jquerypack.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath }/statics/js/superslide.js"></script>
+<script type="text/javascript"
+	src="${pageContext.request.contextPath }/statics/js/code.js"></script>
 </head>
 <body>
 
@@ -23,7 +28,8 @@
 		<!--引入头部共同部分  -->
 		<%@include file="/WEB-INF/jsp/common/header.jsp"%>
 		<!--LOGO END-->
-		<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/recycling-brother-banner.js"></script>
+		<script type="text/javascript"
+			src="${pageContext.request.contextPath }/statics/js/recycling-brother-banner.js"></script>
 		<!--BANNER END-->
 	</div>
 	<!--头部结束-->
@@ -32,31 +38,53 @@
 			<div class="rb1-1">
 				<strong>梧桐回收专用下载</strong>
 				<ul>
-					<li><img src="${pageContext.request.contextPath }/statics/images/qr-code-ios.png"
+					<li><img
+						src="${pageContext.request.contextPath }/statics/images/qr-code-ios.png"
 						class="codeimg">
 							<div>
-								<img src="${pageContext.request.contextPath }/statics/images/rb-ios.png"> <span>iOS下载</span>
+								<img
+									src="${pageContext.request.contextPath }/statics/images/rb-ios.png">
+									<span>iOS下载</span>
 							</div></li>
-					<li><img src="${pageContext.request.contextPath }/statics/images/qr-code-ios.png"
+
+
+
+
+					<li><img
+						src="${pageContext.request.contextPath }/statics/images/qr-code-ios.png"
 						class="codeimg">
 							<div>
-								<img src="${pageContext.request.contextPath }/statics/images/rb-android.png">
+								<img
+									src="${pageContext.request.contextPath }/statics/images/rb-android.png">
 									<p>安卓下载</p>
 							</div></li>
 				</ul>
+
+
+
+
+
+
+
+
 			</div>
 			<div class="rb1-2">
 				<strong>关于梧桐回收介绍</strong>
 				<div class="rb1-2-1">
-					<img src="${pageContext.request.contextPath }/statics/images/rb1-img1.jpg" class="rb1-img1"><img
-						src="${pageContext.request.contextPath }/statics/images/rb1-img2.jpg" class="rb1-img2">
+					<img
+						src="${pageContext.request.contextPath }/statics/images/rb1-img1.jpg"
+						class="rb1-img1"><img
+						src="${pageContext.request.contextPath }/statics/images/rb1-img2.jpg"
+						class="rb1-img2">
 							<div class="clear"></div>
 							<p>
 								2014年6月7日下午，全国政协主席俞正声走进格林美电子废弃物绿色处理车间，检阅电子废弃物绿色拆解过程，走近电视机拆解岗位，和一线员工亲切交谈，关切关怀格林美员工的生活与工作情况，令全体员工倍受鼓舞。俞主席赞叹：“没有想到短短八年，格林美发展得这么好！没有想到格林美废物处理的物理技术如此先进！”
 							</p>
 				</div>
 				<div class="rb1-2-1">
-					<img src="${pageContext.request.contextPath }/statics/images/rb1-img3.jpg" class="rb1-img3">
+					<img
+						src="${pageContext.request.contextPath }/statics/images/rb1-img3.jpg"
+						class="rb1-img3">
 						<div class="clear"></div> <span>成为梧桐回收，赚钱更容易</span>
 						<p>1.外出回收不用撒网捞鱼，可以利用格林美APP推送的老百姓回收信息，实现点对点回收，提高效率，提高当日生意量；</p>
 						<p>2.减少中间二道贩子，实现梧桐回收将废品直接到格林美，将原本二道贩子的价差增加部分到个体户，让梧桐回收赚更多的钱。</p>
@@ -70,7 +98,7 @@
 	<!--container end-->
 
 	<!--底部-->
-			<!--引入尾部共同部分  -->
+	<!--引入尾部共同部分  -->
 	<%@include file="/WEB-INF/jsp/common/foot.jsp"%>
 </body>
 </html>

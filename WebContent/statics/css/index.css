@@ -394,7 +394,7 @@
 }
 
 .sd4-2 li input {
-	background: url("../images/waste-recycling/checkbox-1.png") no-repeat
+	background: url("../images/checkbox-1.png") no-repeat
 		!important;
 	width: 26px;
 	height: 20px;
@@ -403,7 +403,7 @@
 }
 
 .Checkbox {
-	background: url("../images/waste-recycling/checkbox-1.png") no-repeat
+	background: url("../images/checkbox-1.png") no-repeat
 		!important;
 	width: 26px;
 	height: 20px;
@@ -412,7 +412,7 @@
 }
 
 .Checkbox-2 {
-	background: url("../images/waste-recycling/checkbox-2.png") no-repeat
+	background: url("../images/checkbox-2.png") no-repeat
 		!important;
 	width: 26px;
 	height: 20px;
@@ -462,14 +462,14 @@
 }
 
 .sd4-3-2 li.sd4-btn1 {
-	background: url("../images/waste-recycling/sd4_btn1.png") no-repeat;
+	background: url("../images/sd4_btn1.png") no-repeat;
 	width: 201px;
 	height: 52px;
 	color: #757575;
 }
 
 .sd4-3-2 li.sd4-btn2 {
-	background: url("../images/waste-recycling/sd4_btn2.png") no-repeat;
+	background: url("../images/sd4_btn2.png") no-repeat;
 	width: 201px;
 	height: 52px;
 	color: #FFF;
@@ -746,7 +746,7 @@
 }
 
 .wb1-Choose {
-	background: url(../images/waste-baskets/wb-drop.jpg) right 5px no-repeat;
+	background: url(../images/wb-drop.jpg) right 5px no-repeat;
 	width: 70px;
 	height: 17px;
 	float: left;
@@ -794,7 +794,7 @@
 	position: relative;
 	overflow: hidden;
 	z-index: 3;
-	background: url(../images/waste-baskets/ps-select1.jpg) 78px no-repeat;
+	background: url(../images/ps-select1.jpg) 78px no-repeat;
 	padding-left: 5px;
 }
 
