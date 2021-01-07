@@ -17,7 +17,7 @@ public class InitController {
 	public String login() {
 		return "login";
 	}
-//111
+
 	// 注册
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String resigter() {
