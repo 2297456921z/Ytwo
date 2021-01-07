@@ -13,24 +13,24 @@ import cn.bdqn.scrap.dao.Shop_AdminMapper;
 
 
 
-@Transactional
+
 @Service("Shop_AdminService")
 public class Shop_AdminServiceImp implements Shop_AdminService {
 	@Autowired
 	private Shop_AdminMapper Shop_AdminMapper;
-	List<Shop_Admin> Shop_AdminLogin = new ArrayList<>();
+	
 
 	@Override
 	public List<Shop_Admin> Shop_AdminLogin(String admin, String password) {
 		try {
 
-			Shop_AdminLogin.add((Shop_Admin) Shop_AdminMapper.select_Admin(admin, password));
-			return Shop_AdminLogin;
+			
+			return Shop_AdminMapper.select_Admin(admin, password);
 
 		} catch (RuntimeException e) {
 			e.printStackTrace();
 			System.out.println(e.toString() + "查询用户列表时出现错误！问题出现在Shop_AdminServiceImp");
-			return Shop_AdminLogin;
+			return  Shop_AdminMapper.select_Admin(admin, password);
 		}
 	}
 

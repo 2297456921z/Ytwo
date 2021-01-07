@@ -15,7 +15,7 @@
 
 	<!--头部-->
 	<div class="head" style="width: 100%" id="page_head">
-		<!--LOGO-->
+		<!--LOGO--> <input type="hidden" id="path" name="path" value="${pageContext.request.contextPath }"/>
 
 		<div class="logo_bg">
 			<div class="logo">
@@ -30,15 +30,22 @@
 		</div>
 
 		<!--LOGO END-->
-		<form action="../UserService" onsubmit="return isRemeber()"
+		<form  onsubmit="return isRemeber()" 
 			method="post">
 				<div class="forgot-password">
 				<div class="reg1-1">
 					<ul>
-						<li><span>手机号码：</span><input id="username" name="username"
+					
+					<select name="checkbox">
+  <option value ="0">用户</option>
+  <option value ="1">商家</option>
+  
+</select>
+						<li><span>手机号码：</span><input id="username" name="user"
 							type="text" class="text" /></li>
-						<li><span>密码：</span><input id="pwd" name="pwd"
+						<li><span>密码：</span><input id="pwd" name="passWord"
 							type="password" class="text" /></li>
+							<li style="color:red">${message}</li>
 					</ul>
 				</div>
 				<div class="reg-btn1 yahei">
@@ -81,8 +88,20 @@
 						alert("对不起！无法登录，手机号或密码为空，请联系管理员");
 						return false;
 					} */
+				/* 	$.ajax({
+						url: $("#path").val() + "/logins/" + $(this).val(),
+						success: function(result) {
+							if("true" == result) {
+								$("#proCode").next().text("供应商编码已被使用");
+							} else {
+								$("#proCode").next().text("");
+							}
+						}
+					}) */
 
 		};
+		
+		
 	</script>
 
 </body>

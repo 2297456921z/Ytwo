@@ -6,11 +6,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="cn.bdqn.scrap.dao.Shop_UserMapper">
 
 	<!-- 登录 -->
-	<select id="select_User" resultType="java.util.List"
-		parameterType="String">
+	<select id="select_User" resultType="Shop_User">
 
-		SELECT * FROM shop_user WHERE user='#{user}' AND
-		PASSWORD='#{pawssWord}'
+		SELECT * FROM shop_user WHERE user=#{user} AND
+		PASSWORD=#{pawssWord}
 
 	</select>
 

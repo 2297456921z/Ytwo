@@ -14,7 +14,7 @@ public interface Shop_UserMapper {
 	 * @param 
 	 * @return
 	 */
-	public List<Shop_User> select_User(@Param("user") String admin,@Param("pawssWord") String pawssWord);
+	public List<Shop_User> select_User(@Param("user") String user,@Param("pawssWord") String pawssWord);
 	
 	/**
 	 * 增加用户
