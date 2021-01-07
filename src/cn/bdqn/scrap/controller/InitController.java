@@ -6,26 +6,45 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class InitController {
-	@RequestMapping(value = {"/","/index"},method =RequestMethod.GET)
+	// 首页
+	@RequestMapping(value = { "/", "/index" }, method = RequestMethod.GET)
 	public String index() {
 		return "index";
 	}
 
-	@RequestMapping(value ="/login",method =RequestMethod.GET)
+	// 登录
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login() {
 		return "login";
 	}
-	@RequestMapping(value ="/feipin",method =RequestMethod.GET)
-	public String feipin() {
-		return "waste-recycling";
-	}
-	@RequestMapping(value ="/register",method =RequestMethod.GET)
+
+	// 注册
+	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String resigter() {
 		return "register";
 	}
-	
-	
-	
-	
-	
+
+	// 废品交投
+	@RequestMapping(value = "/waste-recycling", method = RequestMethod.GET)
+	public String recycling() {
+		return "waste/waste-recycling";
+	}
+
+	// 梧桐回收加盟
+	@RequestMapping(value = "/recycling-brother", method = RequestMethod.GET)
+	public String brother() {
+		return "recycling-brother";
+	}
+
+	// 环境价值
+	@RequestMapping(value = "/environmental", method = RequestMethod.GET)
+	public String environmental() {
+		return "environmental/environmental";
+	}
+
+	// 废品危害
+	@RequestMapping(value = "/hazardous-waste", method = RequestMethod.GET)
+	public String waste() {
+		return "hazardous-waste/hazardous-waste";
+	}
 }

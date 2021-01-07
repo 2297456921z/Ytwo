@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="top-nav">
-				<a href="/Scrap/"><strong>返回首页</strong></a>
+				<a href="/Scrap/index"><strong>梧桐回收</strong></a>
 
 			</div>
 		</div>

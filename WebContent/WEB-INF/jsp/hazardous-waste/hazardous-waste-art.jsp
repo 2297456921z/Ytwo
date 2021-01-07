@@ -9,10 +9,11 @@
 	content="MSxPs3zI5vks57VZfstHOD5EVfgQR9Y0nOUHPerhEKQ" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link href="css/main.css" type="text/css" rel="stylesheet" />
-<link href="css/index.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquerypack.js"></script>
-<script type="text/javascript" src="js/code.js"></script>
+<link rel="stylesheet" type="text/css" href="../../statics/css/main.css" />
+<link rel="stylesheet" type="text/css"
+	href="../../statics/css/index.css" />
+<script type="text/javascript" src="../../statics/js/jquerypack.js"></script>
+<script type="text/javascript" src="../../statics/js/code.js"></script>
 </head>
 <body>
 
@@ -24,11 +25,13 @@
 			<div class="top">
 				<div class="top_left">
 					<div class="top_l1">
-						<a href="" target="_blank"><img src="images/top_1.png" />手机版</a><span>|</span>
+						<a href="" target="_blank"><img
+							src="../../statics/images/top_1.png" />手机版</a><span>|</span>
 					</div>
 					<div class="top_l2">
-						<a href="" target="_blank"><img src="images/top_2.png" />武汉</a><span><a
-							href="" target="_blank">天津</a><a href="" target="_blank">[更多]</a></span>
+						<a href="" target="_blank"><img
+							src="../../statics/images/top_2.png" />武汉</a><span><a href=""
+							target="_blank">天津</a><a href="" target="_blank">[更多]</a></span>
 					</div>
 				</div>
 				<div class="top_right">
@@ -57,8 +60,7 @@
 				</div>
 				<div class="logo_nav yahei">
 					<ul>
-						<li class="nav_now"><a href="hazardous-waste.jsp"
-							target="_blank">废品危害</a></li>
+						<li class="nav_now"><a href="hazardous-waste" target="_blank">废品危害</a></li>
 						<li><a href="environmental.jsp" target="_blank">环境价值</a></li>
 						<li><a href="recycling-brother.jsp" target="_blank">梧桐回收加盟</a></li>
 						<li><a href="waste-recycling.jsp" target="_blank">废品交投</a></li>
@@ -135,29 +137,45 @@
 				<div class="clear"></div>
 			</div>
 			<script type="text/javascript">
-            // 切换
-            var TabDoc = {
-                _id : null,
-                init : function(id) {
-                    this._id = id;
+				// 切换
+				var TabDoc = {
+					_id : null,
+					init : function(id) {
+						this._id = id;
 
-                    var cli = $("." + id).find("li");
-                    cli.each ( function (index) {
-                        $(this).click( function (event) {
-                            // cli.index(this); 当前索引
-                            cli.each ( function () {
-                                $(this).removeClass("en-value-now");
-                                $(".en-value-right-box").children(".en-value-right").hide()
-                            });
-                            $(this).addClass("en-value-now");
-                            var thisindex = cli.index(this)+1;
-                            $(".en-value-right-box .en-value-right:nth-child(" + thisindex + ")").show()
-                        });
-                    });
-                }
-            }
-            TabDoc.init("en-value-left-2");
-        </script>
+						var cli = $("." + id).find("li");
+						cli
+								.each(function(index) {
+									$(this)
+											.click(
+													function(event) {
+														// cli.index(this); 当前索引
+														cli
+																.each(function() {
+																	$(this)
+																			.removeClass(
+																					"en-value-now");
+																	$(
+																			".en-value-right-box")
+																			.children(
+																					".en-value-right")
+																			.hide()
+																});
+														$(this).addClass(
+																"en-value-now");
+														var thisindex = cli
+																.index(this) + 1;
+														$(
+																".en-value-right-box .en-value-right:nth-child("
+																		+ thisindex
+																		+ ")")
+																.show()
+													});
+								});
+					}
+				}
+				TabDoc.init("en-value-left-2");
+			</script>
 		</div>
 	</div>
 	<!--container-->
@@ -167,9 +185,13 @@
 		<div class="foot">
 			<div class="foot_left yahei">
 				<div class="foot_l1">
-					<a href="http://www.huishouge.cn/about-us.html#zd_1" target="_blank">联系我们</a><a href="http://www.huishouge.cn/about-us.html#zd_2" target="_blank">关于我们</a><a href="http://www.huishouge.cn/about-us.html#zd_3" target="_blank">帮助中心</a>
-						<a href="http://www.huishouge.cn/about-us.html#zd_4" target="_blank">招投标公示</a>
-						<a href="http://www.huishouge.cn/about-us.html#zd_5" target="_blank">改造中标</a>
+					<a href="http://www.huishouge.cn/about-us.html#zd_1"
+						target="_blank">联系我们</a><a
+						href="http://www.huishouge.cn/about-us.html#zd_2" target="_blank">关于我们</a><a
+						href="http://www.huishouge.cn/about-us.html#zd_3" target="_blank">帮助中心</a>
+					<a href="http://www.huishouge.cn/about-us.html#zd_4"
+						target="_blank">招投标公示</a> <a
+						href="http://www.huishouge.cn/about-us.html#zd_5" target="_blank">改造中标</a>
 				</div>
 				<p>
 					© 2015 huishouge.cn All Rights Reserved</br>版权所有：格林美股份有限公司
