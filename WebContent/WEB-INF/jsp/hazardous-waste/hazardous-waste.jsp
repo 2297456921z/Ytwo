@@ -28,7 +28,7 @@
 			<div class="en-value">
 				<div class="en-value-left">
 					<div class="en-value-left-1">
-						<img src="images/environmental/en_ico2.png" /> <span
+						<img src="${pageContext.request.contextPath }/statics/images/environmental/en_ico2.png" /> <span
 							class="yahei">废品危害</span>
 					</div>
 					<div class="en-value-left-2">
