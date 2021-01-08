@@ -12,12 +12,7 @@ public class InitController {
 		return "index";
 	}
 
-	// 登录
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String login() {
-		return "login";
-	}
-
+	
 	// 注册
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String resigter() {
@@ -66,6 +61,11 @@ public class InitController {
 	//提现
 	
 	
+	//地图选点更多
+	@RequestMapping(value = "/more", method = RequestMethod.GET)
+	public String more() {
+		return "more/more";
+	}
 	
 	
 	

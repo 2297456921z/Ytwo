@@ -21,7 +21,7 @@
 				<div class="top_l2">
 					<a href="" target="_blank"><img
 						src="${pageContext.request.contextPath }/statics/images/top_2.png" /><span id="Gps"></span></a><span>
-						<a href="" target="_blank">[更多]</a></span>
+						<a href="${pageContext.request.contextPath }/more" target="_blank">[更多]</a></span>
 				</div>
 			</div>
 			<div class="top_right">

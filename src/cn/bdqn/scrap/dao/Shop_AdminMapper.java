@@ -14,7 +14,7 @@ public interface Shop_AdminMapper {
 	 * @param 
 	 * @return
 	 */
-	public List<Shop_Admin> select_Admin(@Param("admin") String admin,@Param("pawssWord") String pawssWord);
+	public List<Shop_Admin> select_Admin(@Param("admin") String admin,@Param("passWord") String passWord);
 	
 	/**
 	 * 增加用户

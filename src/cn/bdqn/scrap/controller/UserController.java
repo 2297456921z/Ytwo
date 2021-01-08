@@ -20,12 +20,12 @@ public class UserController {
 	@Resource
 	private Shop_AdminService shop_adminservice;
 	// 登录
-		@RequestMapping(value = "/logins", method = RequestMethod.GET)
+		@RequestMapping(value = "/login", method = RequestMethod.GET)
 		public String login() {
 			return "login";
 		}
 		
-		@RequestMapping(value = "/logins", method = RequestMethod.POST)
+		@RequestMapping(value = "/login", method = RequestMethod.POST)
 		public String logins(Model model,Shop_User user) {
 			if(user.getCheckbox()==0) {
 				List<Shop_User> listuser=shop_userservice.Shop_UserLogin(user.getUser(), user.getPassWord());
