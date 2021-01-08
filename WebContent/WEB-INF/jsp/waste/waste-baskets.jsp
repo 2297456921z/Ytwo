@@ -1,17 +1,15 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <title>废品筺</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="google-site-verification"
-	content="MSxPs3zI5vks57VZfstHOD5EVfgQR9Y0nOUHPerhEKQ" />
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/statics/css/main.css"   />
-<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/statics/css/index.css"   />
-<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/jquerypack.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/superslide.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/code.js"></script>
+
+<link rel="stylesheet" type="text/css"  href="${pageContext.request.contextPath }/statics/css/main.css"   />
+<link rel="stylesheet" type="text/css"  href="${pageContext.request.contextPath }/statics/css/index.css"   />
+<script type="text/javascript"   src="${pageContext.request.contextPath }/statics/js/jquerypack.js"></script>
+<script type="text/javascript"  src="${pageContext.request.contextPath }/statics/js/superslide.js"></script>
+<script type="text/javascript"  src="${pageContext.request.contextPath }/statics/js/code.js"></script>
 <script type="text/javascript">
         $(document).ready(function(){
             $("#wb1-address").click(function(){
