@@ -41,7 +41,7 @@
   <option value ="1">商家</option>
   
 </select>
-						<li><span>手机号码：</span><input id="username" name="user"
+						<li><span>账号：</span><input id="username" name="user"
 							type="text" class="text" /></li>
 						<li><span>密码：</span><input id="pwd" name="passWord"
 							type="password" class="text" /></li>
