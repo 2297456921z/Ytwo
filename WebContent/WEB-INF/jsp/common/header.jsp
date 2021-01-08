@@ -20,8 +20,8 @@
 				</div>
 				<div class="top_l2">
 					<a href="" target="_blank"><img
-						src="${pageContext.request.contextPath }/statics/images/top_2.png" />武汉</a><span><a
-						href="" target="_blank">天津</a><a href="" target="_blank">[更多]</a></span>
+						src="${pageContext.request.contextPath }/statics/images/top_2.png" /><span id="Gps"></span></a><span>
+						<a href="" target="_blank">[更多]</a></span>
 				</div>
 			</div>
 			<div class="top_right">
@@ -68,5 +68,15 @@
 		</div>
 	</div>
 	</div>
+	
+	
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+  //获取当前位置 
+  var  stmp=JSON.stringify(returnCitySN.cname);
+  var Gps=stmp.slice(stmp.indexOf("省")+1,-1);
+  document.getElementById("Gps").innerText=Gps;
+//获取当前位置 
+</script>
 </body>
 </html>
