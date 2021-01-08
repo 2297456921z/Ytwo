@@ -7,69 +7,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="google-site-verification"
 	content="MSxPs3zI5vks57VZfstHOD5EVfgQR9Y0nOUHPerhEKQ" />
-<link rel="icon" type="image/x-icon" href="favicon.ico" />
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link href="css/main.css" type="text/css" rel="stylesheet" />
-<link href="css/index.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jquerypack.js"></script>
-<script type="text/javascript" src="js/code.js"></script>
+
+<link rel="stylesheet"  type="text/css" href="${pageContext.request.contextPath }/statics/css/main.css"  />
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/statics/css/index.css"   />
+<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/jquerypack.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath }/statics/js/code.js"></script>
 
 </head>
 <body>
 
 	<!--头部-->
 	<div class="head" style="width: 100%" id="page_head">
-		<!--LOGO-->
-
-		<div class="top_bg">
-			<div class="top">
-				<div class="top_left">
-					<div class="top_l1">
-						<a href="" target="_blank"><img src="images/top_1.png" />手机版</a><span>|</span>
-					</div>
-					<div class="top_l2">
-						<a href="" target="_blank"><img src="images/top_2.png" />武汉</a><span><a
-							href="" target="_blank">天津</a><a href="" target="_blank">[更多]</a></span>
-					</div>
-				</div>
-				<div class="top_right">
-					<div class="top_r1">
-						<a id="getButton" onclick="noteShow()" target="_self">登录</a> <a
-							href="" target="_blank">注册</a>
-					</div>
-					<span>|</span>
-					<div class="top_r2">
-						<a href="waste-recycling.jsp" target="_self"><img
-							src="images/top_3.png" />订单中心</a>
-					</div>
-					<span>|</span>
-					<div class="top_r3">
-						<a href="waste-baskets.jsp" target="_self"><img
-							src="images/top_4.png" />废品筐（0）</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="logo_bg">
-			<div class="logo">
-				<div class="logo_left">
-					<a href="/"><img src="images/logo.png" /></a>
-				</div>
-				<div class="logo_nav yahei">
-					<ul>
-						<li class="nav_now"><a href="hazardous-waste.jsp"
-							target="_blank">废品危害</a></li>
-						<li><a href="environmental.jsp" target="_blank">环境价值</a></li>
-						<li><a href="recycling-brother.jsp" target="_blank">梧桐回收加盟</a></li>
-						<li><a href="waste-recycling.jsp" target="_blank">废品交投</a></li>
-						<li><a href="index.jsp" target="_blank">首页</a></li>
-					</ul>
-
-				</div>
-
-			</div>
-		</div>
+		<%@include file="/WEB-INF/jsp/common/header.jsp"%>
 
 		<!--LOGO END-->
 
@@ -250,6 +199,7 @@
 				<div class="clear"></div>
 			</div>
 			<script type="text/javascript">
+		
             // 切换
             var TabDoc = {
                 _id : null,
