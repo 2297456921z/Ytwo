@@ -18,30 +18,10 @@
 					<a href="" target="_blank"><img
 						src="${pageContext.request.contextPath}/statics/images/top_1.png" />手机版</a><span>|</span>
 				</div>
-<<<<<<< HEAD
 				<div class="top_l2">
 					<a href="" target="_blank"><img
-						src="${pageContext.request.contextPath }/statics/images/top_2.png" />武汉</a><span><a
-						href="" target="_blank">天津</a><a href="" target="_blank">[更多]</a></span>
-=======
-				<div class="top_right">
-					<div class="top_r1">
-						<a id="getButton" href="${pageContext.request.contextPath}/logins" target="_self">登录</a> 
-						<a id="getButton" href="${pageContext.request.contextPath}/register" target="_self">注册</a> 
-						<!-- 注册请求为   register-->
-						
-						
-			
-					</div>
-					<span>|</span>
-					<div class="top_r2">
-						<a href="waste-recycling.jsp" target="_self"><img src="${pageContext.request.contextPath }/statics/images/top_3.png" />订单中心</a>
-					</div>
-					<span>|</span>
-					<div class="top_r3">
-						<a href="waste-baskets.jsp" target="_self"><img src="${pageContext.request.contextPath }/statics/images/top_4.png" />废品筐（0）</a>
-					</div>
->>>>>>> branch 'master' of https://github.com/2297456921z/Ytwo.git
+						src="${pageContext.request.contextPath }/statics/images/top_2.png" /><span id="Gps"></span></a><span>
+						<a href="" target="_blank">[更多]</a></span>
 				</div>
 			</div>
 			<div class="top_right">
@@ -49,14 +29,11 @@
 					<a id="getButton" href="${pageContext.request.contextPath}/login"
 						target="_self">登录</a> <a id="getButton"
 						href="${pageContext.request.contextPath}/register" target="_self">注册</a>
-					<!-- 注册请求为   register-->
-
-
-
 				</div>
 				<span>|</span>
 				<div class="top_r2">
-					<a href="waste-recycling.jsp" target="_self"><img
+					<a href="${pageContext.request.contextPath}/order-details"
+						target="_self"><img
 						src="${pageContext.request.contextPath }/statics/images/top_3.png" />订单中心</a>
 				</div>
 				<span>|</span>
@@ -69,7 +46,7 @@
 	</div>
 	<div class="logo">
 		<div class="logo_left">
-			<a href="${pageContext.request.contextPath }/index"><img
+			<a href="/"><img
 				src="${pageContext.request.contextPath }/statics/images/logo.png" /></a>
 		</div>
 		<div class="logo_nav yahei">
@@ -91,5 +68,15 @@
 		</div>
 	</div>
 	</div>
+	
+	
+	<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+  //获取当前位置 
+  var  stmp=JSON.stringify(returnCitySN.cname);
+  var Gps=stmp.slice(stmp.indexOf("省")+1,-1);
+  document.getElementById("Gps").innerText=Gps;
+//获取当前位置 
+</script>
 </body>
 </html>

@@ -17,7 +17,7 @@ public class InitController {
 	public String login() {
 		return "login";
 	}
-//111
+
 	// 注册
 	@RequestMapping(value = "/register", method = RequestMethod.GET)
 	public String resigter() {
@@ -47,4 +47,26 @@ public class InitController {
 	public String waste() {
 		return "hazardous-waste/hazardous-waste";
 	}
+	//订单详情
+	@RequestMapping(value = "/order-details", method = RequestMethod.GET)
+	public String details() {
+		return "recycling-brother/order-details";
+	}
+	
+	//订单列表
+	
+	//废品筐
+	//dsdasdaffdajkjhjkxcxzfcd
+	//扫描二维码安卓商家版
+	//扫描二维码安卓用户版
+	//扫描二维码苹果商家版
+	//扫描二维码苹果用户版
+	//忘记密码
+	//地图抢单
+	//提现
+	
+	
+	
+	
+	
 }

@@ -9,18 +9,16 @@
 	content="MSxPs3zI5vks57VZfstHOD5EVfgQR9Y0nOUHPerhEKQ" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-<link rel="stylesheet" type="text/css" href="../../statics/css/main.css" />
-<link rel="stylesheet" type="text/css"
-	href="../../statics/css/index.css" />
-<script type="text/javascript" src="../../statics/js/jquerypack.js"></script>
-<script type="text/javascript" src="../../statics/js/code.js"></script>
+<link rel="stylesheet" type="text/css" href="../statics/css/main.css" />
+<link rel="stylesheet" type="text/css" href="../statics/css/index.css" />
+<script type="text/javascript" src="../statics/js/jquerypack.js"></script>
+<script type="text/javascript" src="../statics/js/code.js"></script>
 </head>
 <body>
 
 	<!--头部-->
 	<div class="head" style="width: 100%" id="page_head">
 		<!--LOGO-->
-11
 		<div class="top_bg">
 			<div class="top">
 				<div class="top_left">
