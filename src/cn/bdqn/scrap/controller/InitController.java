@@ -53,10 +53,16 @@ public class InitController {
 		return "recycling-brother/order-details";
 	}
 	
+	//订单列表
 	
-	
-	//废品框
-	
+	//废品筐
+	//扫描二维码安卓商家版
+	//扫描二维码安卓用户版
+	//扫描二维码苹果商家版
+	//扫描二维码苹果用户版
+	//忘记密码
+	//地图抢单
+	//提现
 	
 	
 	
