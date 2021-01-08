@@ -56,6 +56,7 @@ public class InitController {
 	//订单列表
 	
 	//废品筐
+	//dsdasdaffda
 	//扫描二维码安卓商家版
 	//扫描二维码安卓用户版
 	//扫描二维码苹果商家版
