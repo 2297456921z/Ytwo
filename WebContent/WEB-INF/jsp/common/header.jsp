@@ -19,7 +19,7 @@
 						src="${pageContext.request.contextPath}/statics/images/top_1.png" />手机版</a><span>|</span>
 				</div>
 				<div class="top_l2">
-					<a href="" target="_blank"><img
+					<a href=""><img
 						src="${pageContext.request.contextPath }/statics/images/top_2.png" /><span id="Gps"></span></a><span>
 						<a href="${pageContext.request.contextPath }/more" target="_blank">[更多]</a></span>
 				</div>
@@ -32,7 +32,7 @@
 				</div>
 				<span>|</span>
 				<div class="top_r2">
-					<a href="${pageContext.request.contextPath}/order-details"
+					<a href="${pageContext.request.contextPath}/orderlist"
 						target="_self"><img
 						src="${pageContext.request.contextPath }/statics/images/top_3.png" />订单中心</a>
 				</div>
